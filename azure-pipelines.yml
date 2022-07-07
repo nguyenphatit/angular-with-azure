@@ -69,7 +69,7 @@ stages:
             inputs:
               azureSubscription: 'DreamSpark(4ee1e7ad-e5b5-4a01-8e06-619f10aa7474)'
               appType: 'webAppLinux'
-              appName: 'angularwithazure'
+              appName: 'angular-with-azure'
               package: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
               runtimeStack: 'NODE|16-lts'
 
